@@ -1,7 +1,7 @@
-import React, { useState } from 'react';
+import React, { useState } from 'react'
 
-function Counter() {
-  const [count, setCount] = useState(0);
+const Counter = () => {
+  const [count, setCount] = useState(0)
 
   const onClick = () => {
     setCount(count + 1)
@@ -13,8 +13,7 @@ function Counter() {
       <button onClick={onClick}>
         Click me
       </button>
-    </div>
-  );
+    </div>)
 }
 
 export default Counter
